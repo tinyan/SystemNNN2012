@@ -115,12 +115,14 @@
     <ClInclude Include="..\..\systemNNN\nnnLib\commonOmake.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonOpening.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonOverrap.h" />
+    <ClInclude Include="..\..\systemNNN\nnnLib\commonPrintAchievement.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonPrintCalendar.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonPrintCG.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonPrintDebugParam.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonPrintMessage.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonPrintMovie.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonPrintResult.h" />
+    <ClInclude Include="..\..\systemNNN\nnnLib\commonPrintTerm.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonSave.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonSelectCG.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonSelectCGChara.h" />
@@ -128,6 +130,7 @@
     <ClInclude Include="..\..\systemNNN\nnnLib\commonSelectMessage.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonSelectMovie.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonSelectMovieChara.h" />
+    <ClInclude Include="..\..\systemNNN\nnnLib\commonSelectObject.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonSelectPlace.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonSelectScene.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonSelectSceneChara.h" />
@@ -166,11 +169,13 @@
     <ClCompile Include="..\..\systemNNN\nnnLib\commonOmake.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonOpening.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonOverrap.cpp" />
+    <ClCompile Include="..\..\systemNNN\nnnLib\commonPrintAchievement.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonPrintCalendar.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonPrintCG.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonprintmessage.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonPrintMovie.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonPrintResult.cpp" />
+    <ClCompile Include="..\..\systemNNN\nnnLib\commonPrintTerm.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonsave.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonSelectCG.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonSelectCGChara.cpp" />
@@ -178,6 +183,7 @@
     <ClCompile Include="..\..\systemNNN\nnnLib\commonSelectMessage.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonSelectMovie.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonSelectMovieChara.cpp" />
+    <ClCompile Include="..\..\systemNNN\nnnLib\commonSelectObject.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonSelectPlace.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonSelectScene.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonSelectSceneChara.cpp" />

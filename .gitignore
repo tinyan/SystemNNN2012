@@ -5,6 +5,7 @@
 *.lastbuildstate
 *.pdb
 *.idb
+*.sdf
 
 # Windows image file caches
 Thumbs.db

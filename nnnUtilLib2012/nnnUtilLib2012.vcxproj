@@ -165,6 +165,7 @@
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\notice.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\oggDecoder.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\oggStreamDecoder.h" />
+    <ClInclude Include="..\..\systemNNN\nnnUtilLib\okikaeData.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\omakeClassSupport.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\pagePrint.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\printAnimeLayer.h" />
@@ -183,6 +184,7 @@
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\scriptDefine.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\scriptSoundControl.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\scriptVoiceControl.h" />
+    <ClInclude Include="..\..\systemNNN\nnnUtilLib\selectObjectSetup.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\setupList.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\shakin.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\StdAfx.h" />
@@ -266,6 +268,7 @@
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\notice.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\oggDecoder.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\oggStreamDecoder.cpp" />
+    <ClCompile Include="..\..\systemNNN\nnnUtilLib\okikaeData.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\omakeClassSupport.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\pagePrint.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\printAnimeLayer.cpp" />
@@ -282,6 +285,7 @@
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\sceneVoice.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\scriptSoundControl.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\scriptVoiceControl.cpp" />
+    <ClCompile Include="..\..\systemNNN\nnnUtilLib\selectObjectSetup.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\setupList.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\shakin.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\StdAfx.cpp" />
