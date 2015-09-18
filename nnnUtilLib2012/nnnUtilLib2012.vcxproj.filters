@@ -336,6 +336,30 @@
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\selectObjectSetup.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\SystemNNN\nnnUtilLib\softKey.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemNNN\nnnUtilLib\haveItemData.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemNNN\nnnUtilLib\shopItemData.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemNNN\nnnUtilLib\commonPlayStatusData.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemNNN\nnnUtilLib\commonPartyStatusData.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemNNN\nnnUtilLib\myIme.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemNNN\nnnUtilLib\polygonShape.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemNNN\nnnUtilLib\myTextStore.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\animeControl.cpp">
@@ -630,6 +654,30 @@
       <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\selectObjectSetup.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SystemNNN\nnnUtilLib\softKey.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SystemNNN\nnnUtilLib\haveItemData.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SystemNNN\nnnUtilLib\shopItemData.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SystemNNN\nnnUtilLib\commonPlayStatusData.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SystemNNN\nnnUtilLib\commonPartyStatusData.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SystemNNN\nnnUtilLib\myIme.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SystemNNN\nnnUtilLib\polygonShape.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SystemNNN\nnnUtilLib\myTextStore.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>

@@ -118,6 +118,8 @@
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\commonMode.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\commonMultiStateButton.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\commonOkCancel.h" />
+    <ClInclude Include="..\..\SystemNNN\nnnUtilLib\commonPartyStatusData.h" />
+    <ClInclude Include="..\..\SystemNNN\nnnUtilLib\commonPlayStatusData.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\commonRadioButton.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\commonRadioButtonGroup.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\commonResultData.h" />
@@ -138,6 +140,7 @@
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\gameMouse.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\gameUtil.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\getCommandLineParam.h" />
+    <ClInclude Include="..\..\SystemNNN\nnnUtilLib\haveItemData.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\inputStatus.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\menuButtonGroup.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\menuButtonSetup.h" />
@@ -149,6 +152,7 @@
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\myDbgNew.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\Myfont.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\myFontCache.h" />
+    <ClInclude Include="..\..\SystemNNN\nnnUtilLib\myIme.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\myKeyStatus.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\mymessage.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\myMouseStatus.h" />
@@ -157,6 +161,7 @@
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\myScrollBar.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\mySlider.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\myTextInputBox.h" />
+    <ClInclude Include="..\..\SystemNNN\nnnUtilLib\myTextStore.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\nameColor.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\namelist.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\nnnButtonStatus.h" />
@@ -168,6 +173,7 @@
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\okikaeData.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\omakeClassSupport.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\pagePrint.h" />
+    <ClInclude Include="..\..\SystemNNN\nnnUtilLib\polygonShape.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\printAnimeLayer.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\printCard.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\printCardGaze.h" />
@@ -187,6 +193,8 @@
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\selectObjectSetup.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\setupList.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\shakin.h" />
+    <ClInclude Include="..\..\SystemNNN\nnnUtilLib\shopItemData.h" />
+    <ClInclude Include="..\..\SystemNNN\nnnUtilLib\softKey.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\StdAfx.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\superButtonPicture.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\superButtonSetup.h" />
@@ -224,6 +232,8 @@
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\commonMessageWindow.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\commonMultiStateButton.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\commonOkCancel.cpp" />
+    <ClCompile Include="..\..\SystemNNN\nnnUtilLib\commonPartyStatusData.cpp" />
+    <ClCompile Include="..\..\SystemNNN\nnnUtilLib\commonPlayStatusData.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\commonRadioButton.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\commonRadioButtonGroup.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\commonResultData.cpp" />
@@ -244,6 +254,7 @@
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\gameMouse.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\gameUtil.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\getCommandLineParam.cpp" />
+    <ClCompile Include="..\..\SystemNNN\nnnUtilLib\haveItemData.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\inputStatus.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\menuButtonGroup.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\menubuttonsetup.cpp" />
@@ -254,6 +265,7 @@
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\musicControl.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\myfont.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\myFontCache.cpp" />
+    <ClCompile Include="..\..\SystemNNN\nnnUtilLib\myIme.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\myKeyStatus.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\mymessage.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\myMouseStatus.cpp" />
@@ -261,6 +273,7 @@
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\myScrollBar.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\mySlider.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\mytextinputbox.cpp" />
+    <ClCompile Include="..\..\SystemNNN\nnnUtilLib\myTextStore.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\nameColor.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\namelist.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\nnnlog.cpp" />
@@ -271,6 +284,7 @@
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\okikaeData.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\omakeClassSupport.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\pagePrint.cpp" />
+    <ClCompile Include="..\..\SystemNNN\nnnUtilLib\polygonShape.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\printAnimeLayer.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\printCard.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\printCardGaze.cpp" />
@@ -288,6 +302,8 @@
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\selectObjectSetup.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\setupList.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\shakin.cpp" />
+    <ClCompile Include="..\..\SystemNNN\nnnUtilLib\shopItemData.cpp" />
+    <ClCompile Include="..\..\SystemNNN\nnnUtilLib\softKey.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\StdAfx.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\superButtonPicture.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\superButtonSetup.cpp" />

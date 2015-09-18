@@ -103,8 +103,10 @@
     <ClInclude Include="..\..\systemNNN\nnnLib\commonConfig.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonDataFile.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonGeneral.h" />
+    <ClInclude Include="..\..\SystemNNN\nnnLib\commonKanjiInput.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonKeyList.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonListenBGM.h" />
+    <ClInclude Include="..\..\SystemNNN\nnnLib\commonListenVoice.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonLoad.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonLoadSave.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonLogo.h" />
@@ -119,9 +121,12 @@
     <ClInclude Include="..\..\systemNNN\nnnLib\commonPrintCalendar.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonPrintCG.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonPrintDebugParam.h" />
+    <ClInclude Include="..\..\SystemNNN\nnnLib\commonPrintItem.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonPrintMessage.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonPrintMovie.h" />
+    <ClInclude Include="..\..\SystemNNN\nnnLib\commonPrintParty.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonPrintResult.h" />
+    <ClInclude Include="..\..\SystemNNN\nnnLib\commonPrintStatus.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonPrintTerm.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonSave.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonSelectCG.h" />
@@ -135,6 +140,7 @@
     <ClInclude Include="..\..\systemNNN\nnnLib\commonSelectScene.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonSelectSceneChara.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonSelectZukan.h" />
+    <ClInclude Include="..\..\SystemNNN\nnnLib\commonShop.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonSystemMenu.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonSystemModeList.h" />
     <ClInclude Include="..\..\systemNNN\nnnLib\commonSystemParamName.h" />
@@ -159,7 +165,9 @@
     <ClCompile Include="..\..\systemNNN\nnnLib\commonConfig.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commondatafile.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonGeneral.cpp" />
+    <ClCompile Include="..\..\SystemNNN\nnnLib\commonKanjiInput.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonListenBGM.cpp" />
+    <ClCompile Include="..\..\SystemNNN\nnnLib\commonListenVoice.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonLoad.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonLoadSave.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonLogo.cpp" />
@@ -172,9 +180,12 @@
     <ClCompile Include="..\..\systemNNN\nnnLib\commonPrintAchievement.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonPrintCalendar.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonPrintCG.cpp" />
+    <ClCompile Include="..\..\SystemNNN\nnnLib\commonPrintItem.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonprintmessage.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonPrintMovie.cpp" />
+    <ClCompile Include="..\..\SystemNNN\nnnLib\commonPrintParty.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonPrintResult.cpp" />
+    <ClCompile Include="..\..\SystemNNN\nnnLib\commonPrintStatus.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonPrintTerm.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonsave.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonSelectCG.cpp" />
@@ -188,6 +199,7 @@
     <ClCompile Include="..\..\systemNNN\nnnLib\commonSelectScene.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonSelectSceneChara.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonSelectZukan.cpp" />
+    <ClCompile Include="..\..\SystemNNN\nnnLib\commonShop.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonsystemmenu.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonSystemModeList.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnLib\commonTitle.cpp" />
