@@ -1,8 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_Win7|Win32">
+      <Configuration>Debug_Win7</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Win7|Win32">
+      <Configuration>Release_Win7</Configuration>
       <Platform>Win32</Platform>
     </ProjectConfiguration>
     <ProjectConfiguration Include="Release|Win32">
@@ -10,25 +18,37 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <PropertyGroup Label="Globals">
-    <VCTargetsPath Condition="'$(VCTargetsPath11)' != '' and '$(VSVersion)' == '' and '$(VisualStudioVersion)' == ''">$(VCTargetsPath11)</VCTargetsPath>
-  </PropertyGroup>
+  <PropertyGroup Label="Globals" />
   <PropertyGroup Label="Globals">
     <ProjectGuid>{B9CEDE60-96AA-4270-B2F2-F11AC013A5BD}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>nnnUtilLib2012</RootNamespace>
+    <WindowsTargetPlatformVersion>7.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v110_xp</PlatformToolset>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Win7|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v110_xp</PlatformToolset>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Win7|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
@@ -38,18 +58,39 @@
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Win7|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Win7|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>..\..\systemNNNLib\</OutDir>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Win7|Win32'">
+    <OutDir>..\..\systemNNNLib\</OutDir>
+  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <TargetName>$(ProjectName)D</TargetName>
+    <TargetName>nnnUtilLib2017D</TargetName>
+    <IncludePath>C:\Program Files %28x86%29\Windows Kits\10\Include\10.0.17134.0\um;C:\Program Files %28x86%29\Windows Kits\10\Include\10.0.17134.0\shared;D:\ogg\sdk\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Win7|Win32'">
+    <TargetName>nnnUtilLib2017_Win7D</TargetName>
+    <IncludePath>D:\ogg\sdk\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>..\..\systemNNNLib\</OutDir>
+    <IncludePath>C:\Program Files %28x86%29\Windows Kits\10\Include\10.0.17134.0\um;C:\Program Files %28x86%29\Windows Kits\10\Include\10.0.17134.0\shared;D:\ogg\sdk\include;$(IncludePath)</IncludePath>
+    <TargetName>nnnUtilLib2017</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Win7|Win32'">
+    <OutDir>..\..\systemNNNLib\</OutDir>
+    <IncludePath>D:\ogg\sdk\include;$(IncludePath)</IncludePath>
+    <TargetName>nnnUtilLib2017_Win7</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -60,6 +101,30 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalOptions>/D __USE_XAUDIO2__ %(AdditionalOptions)</AdditionalOptions>
+      <ProgramDataBaseFileName>$(IntDir)nnnUtilLib2017D.pdb</ProgramDataBaseFileName>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Win7|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -80,6 +145,31 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalOptions>/D __USE_XAUDIO2__ %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Win7|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -154,6 +244,7 @@
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\myFontCache.h" />
     <ClInclude Include="..\..\SystemNNN\nnnUtilLib\myIme.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\myKeyStatus.h" />
+    <ClInclude Include="..\..\SystemNNN\nnnUtilLib\myLocale.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\mymessage.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\myMouseStatus.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\mymousestruct.h" />
@@ -179,6 +270,7 @@
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\printCardGaze.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\printCardPower.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\printGameDate.h" />
+    <ClInclude Include="..\..\SystemNNN\nnnUtilLib\printPlayerStatus.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\printSpectrum.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\rubiFont.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\saijitsuList.h" />
@@ -207,6 +299,10 @@
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\varNumber.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\waveData.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\waveMusic.h" />
+    <ClInclude Include="..\..\SystemNNN\nnnUtilLib\waveMusicXAudio2.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_Win7|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Win7|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\wheelmouse.h" />
     <ClInclude Include="..\..\systemNNN\nnnUtilLib\wm_user.h" />
   </ItemGroup>
@@ -267,6 +363,7 @@
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\myFontCache.cpp" />
     <ClCompile Include="..\..\SystemNNN\nnnUtilLib\myIme.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\myKeyStatus.cpp" />
+    <ClCompile Include="..\..\SystemNNN\nnnUtilLib\myLocale.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\mymessage.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\myMouseStatus.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\mysavefolder.cpp" />
@@ -290,6 +387,7 @@
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\printCardGaze.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\printCardPower.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\printGameDate.cpp" />
+    <ClCompile Include="..\..\SystemNNN\nnnUtilLib\printPlayerStatus.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\printspectrum.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\rubiFont.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\saijitsuList.cpp" />
@@ -316,6 +414,10 @@
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\varNumber.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\wavedata.cpp" />
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\wavemusic.cpp" />
+    <ClCompile Include="..\..\SystemNNN\nnnUtilLib\waveMusicXAudio2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug_Win7|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_Win7|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\wheelmouse.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
