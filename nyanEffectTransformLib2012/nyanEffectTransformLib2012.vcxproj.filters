@@ -30,6 +30,9 @@
     <ClCompile Include="..\..\systemNNN\nyanEffectTransformLIB\effectTurn.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\SystemNNN\nyanEffectTransformLIB\effectTurnNew.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\systemNNN\nyanEffectTransformLIB\effectPers.h">
@@ -42,6 +45,9 @@
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
     <ClInclude Include="..\..\systemNNN\nyanEffectTransformLIB\effectTurn.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemNNN\nyanEffectTransformLIB\effectTurnNew.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>

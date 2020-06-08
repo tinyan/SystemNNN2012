@@ -369,6 +369,9 @@
     <ClInclude Include="..\..\SystemNNN\nnnUtilLib\waveMusicXAudio2.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\SystemNNN\nnnUtilLib\SteamWork.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\systemNNN\nnnUtilLib\animeControl.cpp">
@@ -696,6 +699,9 @@
       <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="..\..\SystemNNN\nnnUtilLib\waveMusicXAudio2.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SystemNNN\nnnUtilLib\SteamWork.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>

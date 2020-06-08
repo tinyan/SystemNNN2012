@@ -90,6 +90,9 @@
     <ClCompile Include="..\..\systemNNN\nyanEffectCharaLIB\effectZantetsu.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\SystemNNN\nyanEffectCharaLIB\effectCharaMozaic.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\systemNNN\nyanEffectCharaLIB\effectBossDeath.h">
@@ -162,6 +165,9 @@
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
     <ClInclude Include="..\..\systemNNN\nyanEffectCharaLIB\effectZantetsu.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SystemNNN\nyanEffectCharaLIB\effectCharaMozaic.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>
